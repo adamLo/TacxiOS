@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1965CF2B241AB28F004B7231 /* Factorial.js in Resources */ = {isa = PBXBuildFile; fileRef = 1965CF2A241AB28F004B7231 /* Factorial.js */; };
+		1965CF2D241AB335004B7231 /* JSFactorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1965CF2C241AB335004B7231 /* JSFactorial.swift */; };
+		1965CF2F241AB5C0004B7231 /* TacxJsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1965CF2E241AB5C0004B7231 /* TacxJsTests.swift */; };
 		1983B311241A25F900E66CDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1983B310241A25F900E66CDC /* AppDelegate.swift */; };
 		1983B313241A25F900E66CDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1983B312241A25F900E66CDC /* SceneDelegate.swift */; };
 		1983B315241A25F900E66CDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1983B314241A25F900E66CDC /* ViewController.swift */; };
@@ -31,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1965CF2A241AB28F004B7231 /* Factorial.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Factorial.js; sourceTree = "<group>"; };
+		1965CF2C241AB335004B7231 /* JSFactorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSFactorial.swift; sourceTree = "<group>"; };
+		1965CF2E241AB5C0004B7231 /* TacxJsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacxJsTests.swift; sourceTree = "<group>"; };
 		1983B30D241A25F900E66CDC /* TacxCpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacxCpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1983B310241A25F900E66CDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1983B312241A25F900E66CDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1965CF29241AB267004B7231 /* JavaScript */ = {
+			isa = PBXGroup;
+			children = (
+				1965CF2A241AB28F004B7231 /* Factorial.js */,
+				1965CF2C241AB335004B7231 /* JSFactorial.swift */,
+			);
+			path = JavaScript;
+			sourceTree = "<group>";
+		};
 		1983B304241A25F900E66CDC = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +108,7 @@
 		1983B30F241A25F900E66CDC /* TacxCpp */ = {
 			isa = PBXGroup;
 			children = (
+				1965CF29241AB267004B7231 /* JavaScript */,
 				1983B344241A30DA00E66CDC /* ObjC */,
 				1983B342241A2F8200E66CDC /* C++ */,
 				1983B310241A25F900E66CDC /* AppDelegate.swift */,
@@ -109,9 +125,10 @@
 		1983B326241A260200E66CDC /* TacxCppTests */ = {
 			isa = PBXGroup;
 			children = (
-				1983B327241A260200E66CDC /* TacxCppTests.swift */,
 				1983B329241A260200E66CDC /* Info.plist */,
+				1983B327241A260200E66CDC /* TacxCppTests.swift */,
 				1983B348241A370B00E66CDC /* TacxObjcTests.swift */,
+				1965CF2E241AB5C0004B7231 /* TacxJsTests.swift */,
 			);
 			path = TacxCppTests;
 			sourceTree = "<group>";
@@ -224,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1965CF2B241AB28F004B7231 /* Factorial.js in Resources */,
 				1983B31D241A260100E66CDC /* LaunchScreen.storyboard in Resources */,
 				1983B31A241A260100E66CDC /* Assets.xcassets in Resources */,
 				1983B318241A25F900E66CDC /* Main.storyboard in Resources */,
@@ -246,6 +264,7 @@
 			files = (
 				1983B315241A25F900E66CDC /* ViewController.swift in Sources */,
 				1983B347241A310400E66CDC /* FactorialObjc.m in Sources */,
+				1965CF2D241AB335004B7231 /* JSFactorial.swift in Sources */,
 				1983B311241A25F900E66CDC /* AppDelegate.swift in Sources */,
 				1983B313241A25F900E66CDC /* SceneDelegate.swift in Sources */,
 				1983B335241A26AB00E66CDC /* Factorial.cpp in Sources */,
@@ -256,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1965CF2F241AB5C0004B7231 /* TacxJsTests.swift in Sources */,
 				1983B328241A260200E66CDC /* TacxCppTests.swift in Sources */,
 				1983B349241A370B00E66CDC /* TacxObjcTests.swift in Sources */,
 			);
