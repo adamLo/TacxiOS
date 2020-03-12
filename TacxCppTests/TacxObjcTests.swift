@@ -1,5 +1,5 @@
 //
-//  TacxCppTests.swift
+//  TacxObjcTests.swift
 //  TacxCppTests
 //
 //  Created by Adam Lovastyik on 12/03/2020.
@@ -7,10 +7,11 @@
 //
 
 import XCTest
-@testable import TacxCpp
 
-class TacxCppTests: XCTestCase {
+class TacxObjcTests: XCTestCase {
 
+    let factorial = FactorialObjc()
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -19,17 +20,18 @@ class TacxCppTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testFactorialCpp() {
+    func testFactorialObjC() {
         
-        let n: Int32 = 3
-        let fact3 = factorial(n)
+        
+        let fact3 = factorial.factorial(3)
         XCTAssertEqual(fact3, 6)
     }
 
-    func testPerformanceFactorialCpp1000() {
+    func testPerformanceFactorialObjc1000() {
         
         self.measure {
-            let _ = factorial(1000)
+            
+            let _ = factorial.factorial(1000)
         }
     }
 
